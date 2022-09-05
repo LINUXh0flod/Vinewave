@@ -1,0 +1,346 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@500 & display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+background-color: rgb(206, 207, 207);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*========MAIN=========*/
+#main {
+background-image: url(/imagens/149-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+overflow-x: hidden; 
+height: 100vh;
+}
+
+
+
+
+#header {
+  
+  width: 100vw;
+  height: 80px;
+}
+
+
+
+.logo {
+  color: rgb(255, 244, 244);
+  position: relative;
+top: 20px;
+margin-left: 1em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heade {
+position: relative;
+  display: flex;
+ bottom: 4px;
+  justify-content: space-evenly;
+  font-weight: bolder;
+}
+ a {
+  color:rgb(177, 176, 176);
+  
+}
+.heade > a {
+ font-family: 'Montserrat', sans-serif;
+columns: wrap;
+font-size: 20px;
+}
+
+
+
+.botaosec1 {
+  position: relative;
+  background-color: rgb(109, 107, 107);
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  border-radius: 15px;
+  bottom: 10px;
+}
+
+.botaosec1 > a {
+  text-align: center;
+}
+/*========SEC1========*/
+#sec1 {
+  margin-left: 4em;
+  margin-right: 4em;
+height: 100vh;
+}
+/*header*/
+
+p {
+  line-height: 55px;
+}
+
+.txts {
+  margin-top: 8em;
+}
+
+.h2sec1 {
+  font-size: 50px;
+  color: rgb(126, 126, 126);
+}
+
+.txts > p {
+  color: rgb(185, 184, 184);
+  font-weight: bold;
+  
+}
+
+
+/*==============SECTION2==============*/
+#sec2 {
+  background-color: rgb(241, 245, 248);
+  height: 1000px;
+
+} 
+
+.txtsec2 {
+  position: relative;
+text-align: center;
+line-height: 4em;
+top: 7em;
+}
+.txtsec2 > h3 {
+  font-size: 50px;
+  font-weight: 500;
+
+}
+
+span {
+  color: rgb(2, 111, 193) ;
+  font-weight: bold;
+ 
+}
+
+.caixas1 {
+position: relative;
+top: 8em;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+
+
+
+
+.cx1{
+  margin: 25px;
+background-color: rgb(255, 255, 255);
+width: 380px;
+height: 380px;
+border:2px solid  rgba(0, 0, 0, 0.137);
+border-radius: 10px;
+}
+
+.cx2{
+  margin: 25px;
+  background-color: white;
+  width: 380px;
+  height: 380px;
+  border:2px solid  rgba(0, 0, 0, 0.137);
+  border-radius: 10px;
+  }
+
+  .cx3{
+    margin: 25px;
+    background-color: white;
+    width: 380px;
+height: 380px;
+border:2px solid  rgba(0, 0, 0, 0.137);
+border-radius: 10px;
+    }
+    /*
+    .cx4{
+      margin: 25px;
+      background-color: white;
+      width: 380px;
+      height: 380px;
+      border:2px solid  rgba(0, 0, 0, 0.137);
+      border-radius: 10px;
+      }
+      
+      .cx5{
+        margin: 25px;
+        background-color: white;
+        width: 380px;
+        height: 380px;
+        border:2px solid  rgba(0, 0, 0, 0.137);
+        border-radius: 10px;
+        }
+        
+        .cx6{
+          margin: 25px;
+          background-color: white;
+          width: 380px;
+          height: 380px;
+          border:2px solid  rgba(197, 14, 14, 0.075);
+          border-radius: 10px;
+          }
+*/
+          .hvc:hover {
+            border: 2px solid   rgba(29, 23, 23, 0.295);
+          }
+
+          .hvc  > p {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 800;
+            margin-top: 7em;
+          }
+
+
+
+/*=======SECTION3=========*/
+#sec3 {
+ background-color: rgb(255, 255, 255);
+ width: 100vw;
+ height: 1000px; 
+}
+
+.txts3 {
+  position: relative;
+  text-align: center;
+  line-height: 4em;
+  top: 7em;
+}
+
+.txts3 > h2 {
+  font-size: 50px;
+  font-weight: 500;
+
+}
+
+.imgsec3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 12em;
+  
+}
+
+
+
+.cx31{
+  margin: 25px;
+  background-color: white;
+  width: 380px;
+  height: 380px;
+  border:2px solid  rgba(0, 0, 0, 0.137);
+  border-radius: 10px;
+  
+  }
+  .cx32{
+    margin: 25px;
+    background-color: white;
+    width: 380px;
+    height: 380px;
+    border:2px solid  rgba(0, 0, 0, 0.137);
+    border-radius: 10px;
+    
+    }
+    
+    .cx33{
+      
+      margin: 25px;
+      background-color: rgb(255, 255, 255);
+      width: 380px;
+      height: 380px;
+      border:2px solid  rgba(0, 0, 0, 0.137);
+      border-radius: 10px;
+      }
+
+      .cnh {
+        position: relative;
+        top: 8em;
+        margin: auto;
+        box-shadow: 1px 1px  5px rgb(0, 0, 0);
+        width: 200px;
+        height: 100px;
+  background-color: rgba(255, 255, 255, 0);
+      }
+
+      .cnh {
+        position: relative;
+        text-align: center;
+        line-height: 4em;
+        top: 7em;
+      }
+
+      .cnh > p {
+        position: relative;
+        top: 1em;
+        font-size: 20px;
+        font-weight: 700;
+      
+      }
+
+      /*======FOOTER========*/
+      footer {  
+        background-color: rgb(2, 36, 81) ;
+        width: 100vw;
+        height: 300px;
+      
+      }
+
+      /*========MediaQuerry======*/
+
+      @media  (max-width: 900px) {
+       .heade {
+          position: relative;
+          top: 2em;
+        }
+        .caixas1 {
+          display: flex;
+       
+        }
+  
+        .hvc {
+          margin: 25px;
+          background-color: rgb(255, 255, 255);
+          width: 280px;
+          height: 150px;
+          border:2px solid  rgba(0, 0, 0, 0.137);
+          border-radius: 10px;
+        }
+        .hvc  > p {
+          text-align: center;
+          font-size: 20px;
+          font-weight: 800;
+          margin-top: 3em;
+        }
+        
+        .ove {
+          overflow-x: scroll;
+        }
+
+    #sec3 {
+      height: 1200px;
+    }
+      }
+      /* 1300 x 900*/
+      @media (min-width:900px) and (max-width:1300px) {
+        #sec2 {
+          background-color: rgb(241, 245, 248);
+          height: 1500px;
+        
+        } 
+      }
+
+    
+     
