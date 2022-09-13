@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+/*Todas as demais midias
+---------------------------
+pequenas telas: até 600px
+Celula: de 600px até 768px
+tablet: 768px até 992px
+desktop: 992 até 1200px
+Grandes telas: acima de 1200
+*/
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@media screen and (min-width:500px) and (max-width:900px) {
+  #main {
+  background-image: url(/imagens/149-scaled.png);
+  }
+ .logo {
+  margin-top: 23px;
+ }
+ 
+  .logo > a{
+    color: rgb(2, 111, 193);
+    margin-left: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+#header {
+  display: flex;
+  justify-content: space-between;
+height: 50px;
+}
+
+  .heade {
+    display: none;
+  }
+
+  #burguer  {
+    color: rgb(2, 111, 193);
+    display: block;
+padding: 10px;
+margin-top: 21px;
+  }
+
+  #header {
+  display: flex;    
+  
+  }
+
+  ul > li {
+    padding: 10px;
+  }
+
+  #headei {
+    margin: 20px;
+   box-shadow:5px 1px 5px 1px rgb(2, 111, 193)  ;
+    padding: 10px;
+    width: 200px;
+    height: 220px;
+    background-color: rgba(0, 0, 255, 0.123);
+  }
+
+  ul > li > a {
+    color: rgb(2, 111, 193);
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px black; 
+    text-shadow: 1px 2px 2px #000000;
+
+  }
+
+  #sec1 {
+    margin-top: 10em;
+  }
+
+}
